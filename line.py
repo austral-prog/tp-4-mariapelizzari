@@ -9,7 +9,7 @@ def line():
     print(f"El coeficiente X1 de su ecuación de la recta es: {coeficiente_x1}")
     print(f"El coeficiente X2 de su ecuación de la recta es: {coeficiente_x2}")
     print(f"\nPara la siguiente ecuación:")
-    print(f"\tY = {coeficiente_A} x + {coeficiente_B}")
+    print(f"\tY = {coeficiente_A}x + {coeficiente_B}")
     print(f"\nDados los siguientes puntos:")
     Y1=coeficiente_A*coeficiente_x1+coeficiente_B
     print(f"\t{Y1}")
