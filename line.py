@@ -13,7 +13,7 @@ def line():
     print(f"\nDados los siguientes puntos:")
     Y1=coeficiente_A*coeficiente_x1+coeficiente_B
     print(f"\t{Y1}")
-    print(f"\nDados los siguientes puntos:")
+    
     P1= (50.0, 110.99999999999999)
     P2= (-32.9, -79.66999999999999)
     x1= 50.0
@@ -21,7 +21,6 @@ def line():
     x2= -32.9
     y2= -79.66999999999999
 
-    print(f"\tP1 {P1}")
-    print(f"\tP2 {P2}")
+	print(f"\nDados los siguientes puntos:\n \tP1 ({x1},{y1})\n\tP2 ({x2},{y2})")
     distancia=float(((y2-y1)**2 + (x2-x1)**2)**0.5)
     print(f"\nLa distancia entre ellos es: {distancia}")
